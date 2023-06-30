@@ -1,3 +1,13 @@
+# Introduce project
+This project allows users to enter search keywords, then related images will appear
+
+# Technology used
+Html, Css, Javascripts, ReactJs, Flickr Api
+
+# Feature
+-Display list image follow keyword
+-Responsive
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
