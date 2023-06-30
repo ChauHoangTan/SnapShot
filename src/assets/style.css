@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arima:wght@600&display=swap');
+
+.wrapper{
+    width: 80%;
+
+}
+
+.wrapperForm{
+    margin-top: 5%;
+    width: 50%;
+    .form{
+        width: 100%;
+    }
+
+    .suggestSearch{
+        font-size: 1rem;
+        border: 2px solid rgb(99, 94, 94);
+        padding: 1%;
+        width: 20%;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(37, 31, 71);
+        color: rgb(191, 204, 200);
+    }
+}
+
+
+
+.title{
+    font-family: Arima;
+    margin-top: 10%;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px;
+}
+
+.search{
+    appearance: none;
+    outline: none;
+    border: 2px solid rgb(186, 182, 176);
+    background-color: rgba(235, 228, 220,0.6);
+    border-radius: 5px 0px 0px 5px;
+    padding: 2% 2%;
+    width: 90%;
+}
+.btnSearch{
+    border: 2px solid rgb(186, 182, 176);
+    background-color: rgba(235, 228, 220,0.6);
+    border-radius: 0px 5px 5px 0px;
+    padding: 2% 2%;
+    width: 10%;
+}
+
+
+.grid-container ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.grid-container ul li{
+    width: 290px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.grid-container image{
+    
+    width: 100%;
+    transform: scale(1.25);
+    transition: transform 1.25s;
+}
